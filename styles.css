@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+    header{
+        border: black solid 3px;
+    }
+    
+    
+    
+
+    .mainNav{
+        display: flex;
+        list-style: none;
+        justify-content: space-between;
+        padding: 1rem;
+    }
+
+    @media screen and (min-width: 320px){
+        .webTitle{
+            margin-left: 3rem;
+        }
+    }
