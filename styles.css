@@ -68,6 +68,26 @@
        font-size: 1.2rem;
    }
 
+   .acorn{
+       border: 3px black solid;
+   }
+
+   .acorn figure{
+       display: grid;
+       grid-template-columns: repeat(3,1fr);
+   }
+
+   .acorn p{
+       padding: 1rem;
+}
+
+   .acorn img{
+       padding: 1rem;
+       display: block;
+       width: 320px;
+       grid-column: 2;
+   }
+
     @media screen and (min-width: 320px){
         .webTitle{
             margin-left: 3rem;
