@@ -4,6 +4,11 @@
     box-sizing: border-box;
     }
 
+    html{
+        font-family: 'Rubik', 'Times New Roman', Times, sans-serif;
+        line-height: 1.5rem;
+    }
+
     header{
         border: black solid 3px;
     }
@@ -17,11 +22,13 @@
         flex-wrap: wrap;
         list-style: none;
         justify-content: center;
+        /*! margin-left: 1rem; */
     }
 
     .mainNav{
         background-color:#030100;
         margin-bottom: .5rem;
+        /*! margin-left: 1rem; */
     }
 
     .mainNav li{
@@ -36,6 +43,8 @@
     .mainNav a{
         text-decoration: none;
         color: black;
+        /*! width: auto; */
+        /*! display: inline-block; */
     }
 
     .mainNav:focus{
@@ -54,6 +63,7 @@
         background-color: #c4a095;
         font-size: .9rem;
         transition: .3s;
+        /*! width: 400px; */
     }
 
    .donate a{
@@ -68,22 +78,22 @@
        font-size: 1.2rem;
    }
 
-   .acorn{
+   .people{
        border-top: 3px black solid;
        border-bottom: 3px black solid;
    }
 
-   .acorn figure{
+   .people figure{
        display: grid;
        grid-template-columns: repeat(3,1fr);
    }
 
-   .acorn p{
+   .people p{
        padding: 1rem;
        background: #f5d1dc;
 }
 
-   .acorn img{
+   .people img{
        padding: 1rem;
        display: block;
        width: 375px;
@@ -103,6 +113,18 @@
    .info p{
        margin-top: .5rem;
        padding: .3rem;
+   }
+
+   img{
+       
+   }
+   
+   .articleList{
+    padding: 1rem;
+   }
+
+   .project{
+    background-color: #eeeeee;
    }
 
     @media screen and (min-width: 375px){
@@ -165,3 +187,39 @@
         }
 
      } /*end of phone media query */
+
+     @media screen and (min-width: 1280px){
+       .webTitle{
+        margin-bottom: 1rem;
+        font-size: 3rem;
+        padding: .75rem;
+        margin-left: 24rem;
+       }
+         .siteLogo{
+             margin-left: 22rem;
+         }
+         
+         .donate{
+             margin-left: 35rem;
+             width: 300px;
+         }
+         
+         .people{
+             width: 800px;
+             margin-left: 16rem;
+             text-align: center;
+             border: none;
+         }
+         
+         .people img{
+             width: 820px;
+         }
+         
+         .info{
+             margin-left: 16rem;
+         }
+         
+         .icons{
+             margin-left: 32rem;
+         }
+     }
