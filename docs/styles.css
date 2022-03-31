@@ -1,5 +1,5 @@
 * {
-    margin: 0;
+    /*! margin: 0; */
     padding: 0;
     box-sizing: border-box;
     }
@@ -130,6 +130,50 @@
     background-color: #eeeeee;
    }
 
+   /* <!--------------------------start of Hamburger Menu ---------------------------> */
+   /* Style the navigation menu */
+.topnav {
+    overflow: hidden;
+    position: relative;
+  }
+/* Hide the links inside the navigation menu (except for logo/home) (#s are used for IDs)*/
+
+.topnav #myLinks {
+    display: none;
+  }
+
+  /* Style navigation menu links */
+.topnav a {
+    color: #F4AFC4;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    background-color: #000000;
+  }
+
+  /* Style the hamburger menu */
+.topnav a.icon {
+    background: #090808;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .active {
+    background-color: #0B0A0A;
+    color: white;
+  }
+
+
+/* <!--------------------------end of Hamburger Menu ---------------------------> */
+
     @media screen and (min-width: 375px){
         .webTitle{
             margin-left: 7rem;
@@ -155,7 +199,7 @@
         }
 
         .icons{
-            margin-left: 5rem;
+            margin-left: 4rem;
             margin-top: 3rem;
         }
 
