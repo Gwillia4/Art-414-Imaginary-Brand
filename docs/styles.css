@@ -72,10 +72,13 @@
         border: 2px solid black;
         background-color: #F4AFC4;
         border-radius: 3px;
+        padding: .3rem;
    }
 
-   .donate:hover{
-       font-size: 1.2rem;
+   .donate a:hover{
+       /* font-size: 1.2rem; */
+       /*! background-color: #CE93A5; */
+       font-weight: bold;
    }
 
    .people{
@@ -112,7 +115,7 @@
 
    .info p{
        margin-top: .5rem;
-       padding: .3rem;
+       padding: .5rem;
    }
 
    img{
@@ -137,12 +140,18 @@
         .siteLogo{
             float: left;
         }
+       
+        ul{
+            justify-content: center;
+            width: 300px;
+            margin-left: 2.5rem;
+         }
 
         .donate{
-            margin-left: 8rem;
+            margin-left: 4rem;
             border-radius: 3px;
             padding: .5rem;
-            width: 200px;
+            width: 250px;
         }
 
         .icons{
@@ -199,6 +208,7 @@
              margin-left: 22rem;
          }
          
+
          .donate{
              margin-left: 35rem;
              width: 300px;
