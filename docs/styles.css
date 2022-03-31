@@ -99,8 +99,10 @@
    .people img{
        padding: 1rem;
        display: block;
-       width: 375px;
+       width: 389px;
        /*! grid-column: 2; */
+       right: 15px;
+       position: relative;
    }
 
    .mainFooter{
@@ -116,10 +118,6 @@
    .info p{
        margin-top: .5rem;
        padding: .5rem;
-   }
-
-   img{
-       
    }
    
    .articleList{
