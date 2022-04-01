@@ -95,7 +95,8 @@
    .people figcaption{
        text-align: justify;
        /*! background-color: #F4AFC3; */
-       /*! color: white; */
+       color: #F4AFC3;
+       padding: 1rem;
    }
 
    .people img{
@@ -106,6 +107,7 @@
        width: 350px;
        position: relative;
        right: 35px;
+       background-color: black;
    }
 
 
@@ -185,7 +187,7 @@
   /* Twitter */
 .icons a{
     background: #000000;
-    color: #F4AFC4;;
+    color: #F4AFC4;
   }
 
 /* Add a hover effect */
@@ -196,7 +198,7 @@
 
 /* <!--------------------------end of Hamburger Menu ---------------------------> */
 
-    @media screen and (min-width: 375px){
+    @media screen and (min-width: 320px){
         .webTitle{
             margin-left: 7rem;
             /*! text-align: center; */
