@@ -173,6 +173,26 @@
     color: white;
   }
 
+  .icons a{
+    padding: 20px;
+    font-size: 30px;
+    width: 70px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+
+  /* Twitter */
+.icons a{
+    background: #000000;
+    color: #F4AFC4;;
+  }
+
+/* Add a hover effect */
+.fa:hover {
+    opacity: 0.7;
+  }
+
 
 /* <!--------------------------end of Hamburger Menu ---------------------------> */
 
