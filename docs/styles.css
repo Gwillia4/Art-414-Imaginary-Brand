@@ -198,7 +198,7 @@
 
 /* <!--------------------------end of Hamburger Menu ---------------------------> */
 
-    @media screen and (min-width: 320px){
+    @media screen and (min-width: 375px){
         .webTitle{
             margin-left: 7rem;
             /*! text-align: center; */
