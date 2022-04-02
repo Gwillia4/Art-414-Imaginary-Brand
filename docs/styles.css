@@ -231,38 +231,40 @@
             margin-left: 4rem;
         }
 
-        .myPic{
-            float: left;
-            margin-right: .3rem;
+        .myArticle img{
+           /* margin-left: 2rem; */
         }
 
         .myArticle{
             padding: .3rem;
             margin-bottom: 2rem;
+            width: 331px;
+            right: 30px;
+            position: relative;
+            border: solid;
         }
 
-        .tinaPic{
-            float: left;
-            margin-right: .3rem;
+        .tinaArticle img{
+           margin-left: 2rem;
         }
 
         .tinaArticle{
-            border-top: 2px black solid;
             padding: .3rem;
-            margin-bottom: 3rem;
-        }
-
-        .donnaPic{
-            float: left;
-            margin-right: .3rem;
+            margin-bottom: 2rem;
+            width: 331px;
+            right: 30px;
+            position: relative;
+            border: solid;
         }
 
         .donnaArticle{
-            border-top: 2px black solid;
             padding: .3rem;
-            margin-bottom: 3rem;
+            margin-bottom: 2rem;
+            width: 331px;
+            right: 30px;
+            position: relative;
+            border: solid;
         }
-
      } /*end of phone media query */
 
      @media screen and (min-width: 1280px){
