@@ -130,8 +130,13 @@
     padding: 1rem;
    }
 
-   .project{
+   .leonard{
     background-color: #eeeeee;
+    padding: 1rem;
+   }
+
+   .leonard img{
+       width: 100%;
    }
 
    /* <!--------------------------start of Hamburger Menu ---------------------------> */
@@ -194,6 +199,10 @@
 .fa:hover {
     opacity: 0.7;
   }
+
+.sorry{
+    line-height: 2rem;
+}
 
 
 /* <!--------------------------end of Hamburger Menu ---------------------------> */
