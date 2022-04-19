@@ -209,7 +209,7 @@
 
     @media screen and (min-width: 375px){
         .webTitle{
-            margin-left: 7rem;
+            margin-left: 5.5rem;
             /*! text-align: center; */
             line-height: 2.1rem;
         }
