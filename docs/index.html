@@ -4,6 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="styles.css" rel="stylesheet">
+        <title>Sparx Photos Website</title>
         <link rel="stylesheet" href="https://use.typekit.net/pin7wzl.css">
         <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -14,7 +15,7 @@
     <body>
         <header>
             <div class="siteLogo">
-                <img src="assets/camera50px.jpg">
+                <img src="assets/camera50px.jpg" alt="Black and white image of a phone and camera next to eachother otherwise known as the Sparx Photos organization logo.">
             </div>
             <h1 class="webTitle">Sparx Photos</h1>
         </header>
@@ -58,7 +59,7 @@
 
             <article class="peopleArticle">
                 <figure class="people">
-                    <img src="assets/people350px.jpg">
+                    <img src="assets/people350px.jpg" alt="Six people in a field of grass practicing karate.">
                     <figcaption>
                          We are an organization that seeks to restore hope through the medium of photography. Our goal is to help low-income communities to be able to afford photographers for various events. We cover, but are not limited to, weddings, proms, birthdat bashes etc.
                     </figcaption>
@@ -74,11 +75,31 @@
             </div>
 
             <article class="icons">
-                <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+                <!-- <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
                 <a href="https://twitter.com/?lang=en" class="fa fa-twitter"></a>
-                <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+                <a href="https://www.instagram.com/" class="fa fa-instagram"></a> -->
 
-                <p>@sparxphotos</p>
+                <!-- trying to add twitter icon -->
+                
+                <div class="twitter">
+                    <a href="https://twitter.com/?lang=en">
+                        <ion-icon name="logo-twitter"></ion-icon>
+                    </a>
+                </div>
+                
+                <div class="facebook">
+                    <a href="https://www.facebook.com/">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                    </a>
+                </div>
+
+                <div class="instagram">
+                    <a href="https://www.instagram.com/">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+                </div>
+
+                <!-- <p>@sparxphotos</p> -->
             </article>
 
         </main>
@@ -87,6 +108,9 @@
             <p>Project Sparx Photos is a fictitious brand, created by Gregory Williams. Sorry for the inconvenience.</p>
         </footer>
 
+<!-- attempt at loading icon library -->
 
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     </body>
 </html>

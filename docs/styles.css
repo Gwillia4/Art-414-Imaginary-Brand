@@ -168,11 +168,42 @@
    }
 
    .icons{
+       display: flex;
+       flex-flow: row;
        text-align: center;
    }
 
+   .icons a{
+    background: #000000;
+    color: #F4AFC4;
+  }
+
    .icons p{
     font-weight: bold;
+   }
+
+   .twitter{
+       padding: .5rem;
+   }
+
+   .twitter:hover{
+       opacity: .5;
+   }
+
+   .facebook{
+       padding: .5rem;
+   }
+
+   .facebook:hover{
+    opacity: .5;
+   }
+
+   .instagram{
+       padding:.5rem;
+   }
+
+   .instagram:hover{
+    opacity: .5;
    }
 
 
@@ -230,14 +261,9 @@
     border-radius: 50%;
   }
 
-  /* Twitter */
-.icons a{
-    background: #000000;
-    color: #F4AFC4;
-  }
 
 /* Add a hover effect */
-.fa:hover {
+/* .fa:hover {
     opacity: 0.7;
   }
 
@@ -247,7 +273,7 @@
 
   .fa:visited {
     color: #bb8898;
-  }
+  } */
 
 .sorry{
     line-height: 2rem;
