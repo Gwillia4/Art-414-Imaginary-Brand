@@ -11,6 +11,8 @@
 
     header{
         border: black solid 3px;
+        display: flex;
+       flex-flow: row;
     }
     
     .webTitle{
@@ -66,6 +68,10 @@
         /*! width: 400px; */
     }
 
+    .donate{
+        margin-left: 2.5rem;
+    }
+
    .donate a{
         text-decoration: none;
         color: #040404;
@@ -93,10 +99,11 @@
    }
 
    .people figcaption{
-       text-align: justify;
+       /*! text-align: justify; */
        /*! background-color: #F4AFC3; */
        color: #F4AFC3;
-       padding: 1rem;
+       padding: .5rem .5rem;
+       max-width: 100%;
    }
 
    .people img{
@@ -104,10 +111,11 @@
    }
 
     .people{
-       width: 350px;
-       position: relative;
-       right: 35px;
+       width: 100%;
+       /*! position: relative; */
+       /*! right: 39px; */
        background-color: black;
+       margin-left: 0rem;
    }
 
 
@@ -138,6 +146,25 @@
    .leonard img{
        width: 100%;
    }
+
+   figure{
+       width:100%;
+       margin-left: 0rem;
+   }
+
+   figcaption{
+       width:100%;
+       max-width: 18rem;
+   }
+
+   .icons{
+       text-align: center;
+   }
+
+   .icons p{
+    font-weight: bold;
+   }
+
 
    /* <!--------------------------start of Hamburger Menu ---------------------------> */
    /* Style the navigation menu */
@@ -209,9 +236,9 @@
 
     @media screen and (min-width: 375px){
         .webTitle{
-            margin-left: 5.5rem;
+            margin-left: 1.5rem;
             /*! text-align: center; */
-            line-height: 2.1rem;
+            /*! line-height: 2.1rem; */
         }
 
         .siteLogo{
@@ -250,7 +277,7 @@
             width: 331px;
             right: 30px;
             position: relative;
-            border: solid;
+            border-bottom: 2px black solid;
         }
 
         .tinaArticle img{
@@ -263,7 +290,7 @@
             width: 331px;
             right: 30px;
             position: relative;
-            border: solid;
+                  
         }
 
         .donnaArticle{
@@ -272,7 +299,7 @@
             width: 331px;
             right: 30px;
             position: relative;
-            border: solid;
+            border-top: 2px black solid;
         }
      } /*end of phone media query */
 
