@@ -190,6 +190,10 @@
        opacity: .5;
    }
 
+   .twitter a:focus{
+    border: 3px solid blue;
+   }
+
    .facebook{
        padding: .5rem;
    }
@@ -198,12 +202,20 @@
     opacity: .5;
    }
 
+   .facebook a:focus{
+    border: 3px solid blue;
+   }
+
    .instagram{
        padding:.5rem;
    }
 
    .instagram:hover{
     opacity: .5;
+   }
+
+   .instagram a:focus{
+    border: 3px solid blue;
    }
 
 
