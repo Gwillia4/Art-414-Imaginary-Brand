@@ -15,6 +15,10 @@
        flex-flow: row;
         /*! margin-top: 1rem; */
     }
+
+    img{
+        width: 100%;
+    }
     
     .webTitle{
         font-family: Rig-Solid-Medium-Fill, 'Times New Roman', Times, serif ;
@@ -108,10 +112,7 @@
     background-color: #e4a1b5;
 }
 
-   .peopleArticle{
-       /*! border-top: 3px black solid; */
-       /*! border-bottom: 3px black solid; */
-       /*! background-color: #000; */
+   .homeArticle{
        padding: .5rem;
    }
 
@@ -121,26 +122,33 @@
    }
 
    .people figcaption{
-       /*! text-align: justify; */
        background-color: #eeeeee;
-       /*! color: #F4AFC3; */
        padding: .5rem .5rem;
        max-width: 100%;
    }
 
-   .people img{
-       width: 100%;
-   }
+  
 
     .people{
        width: 100%;
-       /*! position: relative; */
-       /*! right: 39px; */
        background-color: #eeeeee;
        margin-left: 0rem;
        padding: .5rem;
    }
 
+   .choir{
+       width: 100%;
+       background-color: #eeeeee;
+       margin-left: 0rem;
+       padding: .5rem;
+   }
+
+   .birthday{
+    width: 100%;
+    background-color: #eeeeee;
+    margin-left: 0rem;
+    padding: .5rem;
+}
 
    .mainFooter{
        margin-top: 1rem;
@@ -173,11 +181,17 @@
    figure{
        width:100%;
        margin-left: 0rem;
+       padding: 1rem;
    }
 
    figcaption{
        width:100%;
        max-width: 18rem;
+   }
+
+   .figTitle{
+    font-size: 1.2rem;
+    font-weight: bold;
    }
 
    .icons{
