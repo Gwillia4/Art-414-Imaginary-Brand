@@ -80,6 +80,7 @@
         padding: 1rem;
         font-weight: bold;
         background-color: #f2e1e6;
+        margin-bottom: 1rem;
     }
 
     .donate{
@@ -321,7 +322,15 @@
     line-height: 2rem;
 }
 
+.homeArticle{
+    margin-bottom: 1rem;
+}
 
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
 /* <!--------------------------end of Hamburger Menu ---------------------------> */
 
     @media screen and (min-width: 375px){
@@ -410,7 +419,7 @@
              width: 300px;
          }
          
-         .people{
+         /* .people{
              width: 800px;
              margin-left: 16rem;
              text-align: center;
@@ -419,7 +428,7 @@
          
          .people img{
              width: 820px;
-         }
+         } */
          
          .info{
              margin-left: 16rem;
