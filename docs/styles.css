@@ -20,10 +20,8 @@
         width: 100%;
     }
     
-    .webTitle{
-        font-family: Rig-Solid-Medium-Fill, 'Times New Roman', Times, serif ;
-        margin-top: 1rem;
-        margin-left: .4rem;
+    .siteLogo{
+        padding: 0rem 1rem;
     }
     
     ul{
@@ -304,20 +302,6 @@
     border-radius: 50%;
   }
 
-
-/* Add a hover effect */
-/* .fa:hover {
-    opacity: 0.7;
-  }
-
-  .fa:focus {
-    border: 3px solid blue;
-  }
-
-  .fa:visited {
-    color: #bb8898;
-  } */
-
 .sorry{
     line-height: 2rem;
 }
@@ -333,11 +317,19 @@
 }
 /* <!--------------------------end of Hamburger Menu ---------------------------> */
 
-    @media screen and (min-width: 375px){
+@media screen and (min-width: 375px){
+    .donate{
+        margin-left: 7.5rem;
+    }
+
+    .purpose{
+        text-align: center;
+    }
+}
+
+    /* @media screen and (min-width: 375px){
         .webTitle{
             margin-left: 1.5rem;
-            /*! text-align: center; */
-            /*! line-height: 2.1rem; */
         }
 
         .siteLogo{
@@ -364,13 +356,9 @@
 
         .icons p{
             margin-left: 4rem;
-        }
+        } */
 
-        .myArticle img{
-           /* margin-left: 2rem; */
-        }
-
-        .myArticle{
+        /* .myArticle{
             padding: .3rem;
             margin-bottom: 2rem;
             width: 331px;
@@ -399,8 +387,8 @@
             right: 30px;
             position: relative;
             border-top: 2px black solid;
-        }
-     } /*end of phone media query */
+        } */
+     /* } end of phone media query */
 
      @media screen and (min-width: 1280px){
        .webTitle{
@@ -409,26 +397,11 @@
         padding: .75rem;
         margin-left: 24rem;
        }
-         .siteLogo{
-             margin-left: 22rem;
-         }
          
-
          .donate{
              margin-left: 35rem;
              width: 300px;
          }
-         
-         /* .people{
-             width: 800px;
-             margin-left: 16rem;
-             text-align: center;
-             border: none;
-         }
-         
-         .people img{
-             width: 820px;
-         } */
          
          .info{
              margin-left: 16rem;
