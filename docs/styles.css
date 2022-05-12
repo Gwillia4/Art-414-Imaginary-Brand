@@ -426,6 +426,14 @@
         .donate{
             margin-left: 14rem;
         }
+
+        .grid{
+            margin-left: 10rem;
+        }
+
+        .icons{
+            margin-left: 13rem;
+        }
      }
 
      @media screen and (min-width: 1000px){
@@ -459,4 +467,23 @@
          .icons{
              margin-left: 32rem;
          }
+
+         .leonard{
+             width: 30%;
+         }
+
+         .myArticle{
+             width: 33%;
+             margin-left: 26rem;
+             border: 2px solid black;
+         }
+
+         .Lexi{
+             width: 33%;
+         }
+
+         .Emma{
+            width: 33%;
+            margin-left: 1rem;
+        }
      }
