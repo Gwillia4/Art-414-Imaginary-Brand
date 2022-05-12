@@ -86,7 +86,7 @@
    .people figcaption{
        background-color: #eeeeee;
        padding: .5rem .5rem;
-       max-width: 100%;
+       /*! max-width: 100%; */
    }
 
   
