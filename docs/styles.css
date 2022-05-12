@@ -33,44 +33,7 @@
     }
 
     .mainNav{
-        background-color:#030100;
-        margin-bottom: .5rem;
-        /*! margin-left: 1rem; */
-    }
-
-    .mainNav li{
-        background-color: #FFCFC0;
-        padding: .2rem;
-        border: solid 1px ;
-        padding: .5rem;
-        text-decoration: none;
-        
-    }
-
-    .mainNav a{
-        text-decoration: none;
-        color: black;
-        /*! width: auto; */
-        /*! display: inline-block; */
-    }
-
-    .mainNav:focus{
-        
-    }
-
-    .mainNav:active{
-
-    }
-
-    .mainNav:visited{
-
-    }
-
-    .mainNav li:hover{
-        background-color: #c4a095;
-        font-size: .9rem;
-        transition: .3s;
-        /*! width: 400px; */
+        display: none;
     }
 
     .purpose{
@@ -315,6 +278,29 @@
     flex-wrap: wrap;
     justify-content: flex-start;
 }
+
+.Lexi{
+    border: 2px solid black;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.lexiImg{
+    width: 50%;
+}
+
+.Emma{
+    border: 2px solid black;
+
+}
+
+.emmaImg{
+    width: 50%;
+}
+
+.purpose a{
+    text-decoration: none;
+}
 /* <!--------------------------end of Hamburger Menu ---------------------------> */
 
 @media screen and (min-width: 375px){
@@ -390,6 +376,69 @@
         } */
      /* } end of phone media query */
 
+     @media screen and (min-width: 720px){
+        .mainNav{
+            display: block;
+            background-color:#030100;
+            margin-bottom: .5rem;
+        }
+
+        .mainNav li{
+            /*! background-color: #FFCFC0; */
+            padding: .2rem;
+            border: solid 1px ;
+            padding: .5rem;
+            text-decoration: none;
+        }
+
+        .mainNav a{
+            text-decoration: none;
+            color: #F4AFC4;
+            font-size: 1.4rem;
+        }
+
+        .mainNav:focus{
+            border: 2px solid white;
+            /* background-color:#F4AFC4;
+            color: #000000; */
+        }
+    
+        .mainNav li:active{
+            font-style: italic;
+        }
+    
+        .mainNav:visited{
+    
+        }
+    
+        .mainNav li:hover{
+            /*! background-color: #c4a095; */
+            font-size: 1.2rem;
+            transition: .5s;
+            /*! width: 400px; */
+            border: 2px solid white;
+        }
+
+        .topnav{
+            display: none;
+        }
+
+        .donate{
+            margin-left: 14rem;
+        }
+     }
+
+     @media screen and (min-width: 1000px){
+        
+        .mainNav a{
+            font-size: 1.6rem;
+        }
+
+        .donate{
+             margin-left: 22rem;
+         }
+     }
+
      @media screen and (min-width: 1280px){
        .webTitle{
         margin-bottom: 1rem;
@@ -399,7 +448,7 @@
        }
          
          .donate{
-             margin-left: 35rem;
+             margin-left: 32rem;
              width: 300px;
          }
          
